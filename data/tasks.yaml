@@ -1,0 +1,5 @@
+schema_version: "2.0"
+
+# Task log (Notion-mirrored or local). HEARTBEAT.md is the agent-facing view.
+
+tasks: []

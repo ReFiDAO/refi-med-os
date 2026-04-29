@@ -1,0 +1,49 @@
+# dashboard.yaml — Controls what /initialize shows
+# Toggle sections on/off, reorder, customize without deleting any files.
+
+schema_version: "2.0"
+
+# ─── Dashboard Sections ──────────────────────────────────────────────────────
+
+sections:
+
+  header:
+    show: true
+    style: ascii
+
+  projects:
+    show: true
+    max: null
+    stages: null
+
+  tasks:
+    show: true
+    max: null
+    show_completed: true
+
+  calendar:
+    show: false             # No formal meetings yet — flip on after bootstrap interview
+
+  funding:
+    show: false
+    horizon_days: 30
+
+  context:
+    show: true
+    max_entries: 3
+
+  plans:
+    show: false             # Enable when implementation plans land in docs/agent-plans/
+
+  apps:
+    show: false             # No bundled apps yet
+
+  cheatsheet:
+    show: true
+
+  federation:
+    show: true
+
+  prompt:
+    show: true
+    suggestions: 3

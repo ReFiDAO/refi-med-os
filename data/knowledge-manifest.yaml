@@ -1,0 +1,9 @@
+schema_version: "2.0"
+
+# Knowledge manifest — what to compile and publish.
+
+knowledge:
+  primary_source: "repos/refi-mediterranean/content"
+  publish_to: "https://refi-mediterranean.org"   # TBD — confirm domain
+  builders:
+    - "quartz"

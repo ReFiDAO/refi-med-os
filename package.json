@@ -1,0 +1,36 @@
+{
+  "name": "refi-med-os",
+  "description": "ReFi Mediterranean — Organizational OS instance",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReFiDAO/refi-med-os.git"
+  },
+  "scripts": {
+    "initialize": "node scripts/initialize.mjs",
+    "initialize:markdown": "node scripts/initialize.mjs --format=markdown",
+    "setup": "node scripts/setup-org-os.mjs",
+    "clone:repos": "node scripts/clone-linked-repos.mjs",
+    "generate:schemas": "node scripts/generate-all-schemas.mjs",
+    "validate:schemas": "node scripts/validate-schemas.mjs",
+    "validate:structure": "node scripts/validate-structure.mjs"
+  },
+  "engines": {
+    "npm": ">=10.9.2",
+    "node": ">=22"
+  },
+  "keywords": [
+    "organizational-os",
+    "refi",
+    "mediterranean",
+    "eip-4824"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0"
+  }
+}

@@ -1,0 +1,6 @@
+schema_version: "2.0"
+
+# Members registry for ReFi Mediterranean.
+# Populate via the bootstrap interview (`/initialize` → bootstrap-interviewer skill).
+
+members: []

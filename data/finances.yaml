@@ -1,0 +1,8 @@
+schema_version: "2.0"
+
+# Treasury & financial state. Populate after treasury setup.
+
+finances:
+  treasury: []
+  expenses: []
+  income: []

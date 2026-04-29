@@ -1,0 +1,14 @@
+{
+  "@context": "http://www.daostar.org/schemas",
+  "type": "LocalNode",
+  "name": "ReFi Mediterranean",
+  "description": "Coordination of regenerative-finance nodes across the Mediterranean bioregion. Federated peer of ReFi DAO, ReFi Barcelona, and Regen Coordination.",
+  "membersURI": "https://refi-mediterranean.org/.well-known/members.json",
+  "proposalsURI": "https://refi-mediterranean.org/.well-known/proposals.json",
+  "activityLogURI": "https://refi-mediterranean.org/.well-known/activities.json",
+  "governanceURI": "https://refi-mediterranean.org/governance",
+  "contractsURI": "https://refi-mediterranean.org/.well-known/contracts.json",
+  "meetingsURI": "https://refi-mediterranean.org/.well-known/meetings.json",
+  "projectsURI": "https://refi-mediterranean.org/.well-known/projects.json",
+  "financesURI": "https://refi-mediterranean.org/.well-known/finances.json"
+}

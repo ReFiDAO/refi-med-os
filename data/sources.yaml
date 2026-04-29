@@ -1,0 +1,11 @@
+schema_version: "2.0"
+
+# Knowledge sources — repos, sites, datasets curated for the org.
+
+sources:
+  - id: "refi-mediterranean-website"
+    type: "git"
+    url: "https://github.com/ReFiDAO/ReFi-Mediterranean"
+    local_path: "repos/refi-mediterranean"
+    role: "primary-knowledge-base"
+    description: "Quartz-rendered public website + knowledge base."

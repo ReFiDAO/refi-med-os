@@ -1,0 +1,10 @@
+{
+  "baseDirectory": "repos",
+  "repositories": [
+    {
+      "name": "refi-mediterranean",
+      "url": "https://github.com/ReFiDAO/ReFi-Mediterranean.git",
+      "branch": "main"
+    }
+  ]
+}
